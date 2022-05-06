@@ -10,32 +10,19 @@ namespace Main
     {
         public static void Main(string[] args)
         {
-            // ExecuteScript.CallScript();
+	    // Call Python script to generate Combined wathclist statistics
+            ExecuteScript.CallScript();
 
             // Generate Report
             string currentDir = Directory.GetCurrentDirectory();
             string WatchlistFilePath = $"{currentDir}/InputStatistics/Combined_Watchlist_Statistics_New.csv";
 
-            // FixCsvDataTypes.AlterCsvDataFields(WatchlistFilePath);
-            //ConvertCSVtoXLSX.Convert();
             var GeneratedDataTable = ProccessData.ConvertCSVtoDataTable(WatchlistFilePath);
             var ProcessedDataTable = ProccessInputs.QueryDataTable(GeneratedDataTable);
-
+	
+	    // Displays DataTable for debugging purposes
             var debugTable = new DebugTable();
             debugTable.Table(ProcessedDataTable);
-
-            // var arrayNames = (from DataColumn x 
-            //       in GeneratedDataTable.Columns.Cast<DataColumn>()
-            //       select x.ColumnName).ToArray();
-
-            // System.Console.WriteLine(arrayNames);
-
-            // foreach( DataRow dr in GeneratedDataTable.Rows)
-            //     {
-            //     foreach(var item in dr.ItemArray)
-            //         System.Console.WriteLine(item + "");
-            //     }
-            //      System.Console.WriteLine();
         }
     }
 }
