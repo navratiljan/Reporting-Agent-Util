@@ -9,7 +9,7 @@ namespace Main
     {
         public static void Main(string[] args)
         {
-	    // Call Python script to generate Combined watchlist statistics
+	// Call Python script to generate Combined watchlist statistics
         ExecuteScript.CallScript();
 
         // Generate Report
@@ -19,7 +19,7 @@ namespace Main
         var GeneratedDataTable = ProccessData.ConvertCSVtoDataTable(WatchlistFilePath);
         var ProcessDataTables = ProccessInputs.QueryDataTable(GeneratedDataTable);
 
-	    // Displays DataTable for debugging purposes (visible only in debugger)
+	// Displays DataTable for debugging purposes (visible only in debugger)
         var debugTable = new DebugTable();
         var screeningTable = ProcessDataTables[0];
         var monitoringTable = ProcessDataTables[1];
