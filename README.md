@@ -19,5 +19,6 @@ Funkce agenta je agregovat data následujícím způsobem:
 Po agregaci jsou data uložena .xlsx formátu s dvěma sheety, jeden pro "Screning" a druhý pro "Monitoring". Excel soubor je následně zaslán na předdefinovanou emailovou adresu.
 
 ### Simple flowchart
-![AgentFlowchart](https://user-images.githubusercontent.com/93519893/167251367-018de861-12c0-4678-b159-efe918e75f50.png)
+![AgentFlowchart](https://user-images.githubusercontent.com/93519893/167251461-ee398ce1-a9be-4c5c-bd22-4e9d642f7734.png)
+
 
