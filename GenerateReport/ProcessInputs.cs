@@ -43,7 +43,7 @@ namespace ReportingAgent
         return outputDataTables;
         }
 
-        public static void SaveAsXlsx(DataTable inputDataTableScreening, DataTable inputDataTableMonitoring){
+        private static void SaveAsXlsx(DataTable inputDataTableScreening, DataTable inputDataTableMonitoring){
             SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
             var workbook = new ExcelFile();
             var worksheetScreeing = workbook.Worksheets.Add("Screening");
