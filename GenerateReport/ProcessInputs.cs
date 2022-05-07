@@ -27,7 +27,7 @@ namespace ReportingAgent
               }).CopyToDataTable();
 
         var outputDataTableMonitoring = inputDataTable.AsEnumerable()
-              .Where(x => x.Field<string>("Type") == "Screening")
+              .Where(x => x.Field<string>("Type") == "Monitoring")
               .GroupBy(r => r.Field<int>("Client"))
               .Select(g =>
               {
