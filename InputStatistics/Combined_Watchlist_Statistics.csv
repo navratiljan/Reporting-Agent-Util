@@ -1,44 +1,159 @@
-Artifact ID;Status;Name;Data Provider identification;Delivery Method;Client unique reference number;TPRM Modules
-1086011;Active;Microsoft;AOSINT;Manual Upload;001;
-1086012;Active;Tencent;DSL;Manual Upload;002;
-1086013;Inactive;Amazon;;Manual Upload;005;
-1086014;Inactive;Èeská Spoøitelna;;Manual Upload;007;
-1086015;Active;Komerèní Banka;AOSINT;Manual Upload;008;
-1086016;Active;Test;DSL;Manual Upload;999;
-1086017;Active;Formage;DSL;Manual Upload;009;
-1086018;Inactive;Alpha Tools;;Manual Upload;010;
-1086019;Inactive;Alexandria;;Manual Upload;011;
-1086020;Inactive;Bayer;;Manual Upload;012;
-1086021;Inactive;PK Orlen;;Manual Upload;014;
-1086022;Inactive;Billa;;Manual Upload;015;
-1086023;Active;Studet Agency;AOSINT;Manual Upload;016;Sanction Lists
-1086024;Inactive;Hamé;;Manual Upload;017;
-1086025;Inactive;Bioveta;;Manual Upload;018;
-1086026;Inactive;Brano;;Manual Upload;C19;
-1086027;Inactive;OZP;;Manual Upload;020;
-1086028;Inactive;AutoCont;;Manual Upload;021;
-1086029;Active;Ekospol;DSL;Manual Upload;022;Sanction Lists
-1086030;Inactive;Homecredit;;Manual Upload;023;
-1086031;Inactive;ICOM;;Manual Upload;024;
-1086032;Active;Juta;DSL;Manual Upload;025;Sanction Lists
-1086033;Inactive;Jkorado;;Manual Upload;026;
-1086034;Inactive;Hyunday;;Manual Upload;027;
-1086035;Active;Kooperativa;DSL;Manual Upload;028;
-1086036;Inactive;AB Minerals;;Manual Upload;029;Sanction Lists
-1086037;Inactive;Motorpal;;Manual Upload;030;
-1499197;Inactive;Meopta;;Manual Upload;031;
-1506541;Active;Linde;DSL;Manual Upload;032;
-2211058;Inactive;Lesy ÈR;;Manual Upload;033;
-2236386;Inactive;Moira;;Manual Upload;130;
-2242104;Active;Mountfield;AOSINT;Manual Upload;530;
-2509038;Inactive;ROSTEX;;Manual Upload;630;Sanction Lists
-2511775;Inactive;T-Mobile;;Manual Upload;730;Sanction Lists
-2538289;Active;TOS Warsdorf;DSL;;034;Sanction Lists
-2570947;Active;Unicorn;DSL;Manual Upload;035;
-2597259;Active;Vodafone;AOSINT;Manual Upload;040;
-2647941;Active;Zoner;AOSINT;Manual Upload;041;Sanction Lists
-2673442;Active;AVAST;AOSINT;;042;
-2937340;Active;Agrostroj;DSL;Manual Upload;043;
-3554463;Active;SHELL;AOSINT;Manual Upload;036;
-4061349;Active;MOL ÈR;AOSINT;;044;
-4061352;Active;TATRA;AOSINT;;045;
+Client;Type;Company_Count
+8;Monitoring;1676
+8;Monitoring;1676
+8;Screening;6
+8;Monitoring;962
+8;Screening;4
+8;Screening;3
+8;Monitoring;962
+8;Screening;4
+8;Monitoring;4
+8;Screening;4
+40;Monitoring;4
+8;Monitoring;989
+8;Screening;4
+8;Screening;4
+8;Screening;5
+8;Monitoring;1002
+8;Screening;6
+8;Screening;2
+8;Screening;5
+8;Monitoring;1016
+8;Screening;1
+8;Screening;2
+8;Screening;2
+8;Screening;3
+8;Screening;2
+8;Screening;5
+8;Screening;2
+8;Screening;5
+8;Screening;5
+8;Screening;4
+8;Monitoring;1013
+8;Screening;3
+8;Monitoring;1047
+8;Screening;5
+8;Screening;5
+8;Monitoring;1045
+8;Screening;1
+40;Screening;2
+40;Screening;1
+8;Screening;8
+8;Screening;3
+8;Screening;7
+8;Monitoring;1079
+8;Screening;7
+8;Monitoring;1078
+8;Screening;4
+8;Screening;8
+1;Screening;1065
+8;Screening;5
+8;Screening;9
+8;Monitoring;1104
+8;Screening;5
+8;Screening;3
+8;Screening;10
+8;Monitoring;1122
+8;Screening;11
+16;Monitoring;1253
+8;Screening;2
+16;Screening;3
+8;Screening;2
+8;Screening;6
+1;Screening;519
+8;Screening;4
+8;Monitoring;1136
+8;Screening;8
+16;Screening;10
+8;Screening;7
+1;Screening;8
+1;Screening;37
+1;Screening;360
+8;Screening;4
+16;Screening;6
+16;Screening;3
+8;Screening;4
+16;Screening;3
+8;Monitoring;1159
+1;Screening;6
+16;Screening;3
+8;Screening;3
+8;Screening;7
+16;Screening;11
+8;Screening;7
+16;Screening;5
+16;Monitoring;1812
+8;Screening;3
+16;Screening;7
+8;Screening;6
+16;Screening;1
+8;Screening;3
+16;Screening;2
+8;Screening;6
+8;Monitoring;1194
+8;Screening;3
+16;Screening;4
+1;Screening;12
+16;Screening;6
+8;Screening;3
+8;Screening;5
+8;Screening;5
+16;Monitoring;1812
+16;Monitoring;1812
+16;Screening;5
+8;Monitoring;1209
+36;Monitoring;88
+36;Screening;50
+8;Screening;3
+16;Screening;8
+16;Screening;4
+8;Screening;3
+8;Screening;6
+16;Screening;6
+16;Screening;4
+8;Screening;4
+8;Monitoring;1222
+16;Screening;4
+8;Screening;6
+8;Monitoring;1228
+16;Screening;6
+36;Screening;2
+8;Monitoring;1233
+8;Screening;5
+8;Monitoring;1232
+36;Monitoring;90
+16;Screening;4
+8;Screening;5
+8;Monitoring;1230
+8;Screening;2
+16;Screening;6
+8;Screening;12
+8;Screening;1
+16;Screening;8
+8;Screening;6
+8;Screening;6
+16;Screening;17
+8;Monitoring;1244
+8;Monitoring;1255
+16;Screening;10
+44;Monitoring;204
+16;Screening;3
+8;Screening;5
+44;Monitoring;225
+16;Monitoring;2196
+8;Monitoring;1261
+16;Monitoring;2290
+16;Monitoring;2303
+16;Screening;9
+16;Monitoring;2303
+8;Screening;3
+16;Screening;1
+44;Monitoring;229
+8;Screening;11
+8;Monitoring;1274
+8;Monitoring;1260
+8;Screening;1
+8;Screening;8
+16;Screening;8
+16;Screening;10
+16;Monitoring;2310

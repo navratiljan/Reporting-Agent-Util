@@ -38,13 +38,13 @@ namespace ReportingAgent
             }
             catch(Exception)
             {
-            Console.WriteLine("ERRORS:");
+            Console.WriteLine("Python script ERRORS:");
             Console.WriteLine(str(errors.ToArray()));
 
             throw new Exception("Reporting Agent exiting with non-zero status code");
             }
             // Display output if execution succeeded
-            Console.WriteLine("OUTPUT:");
+            Console.WriteLine("Python script OUTPUT:");
             Console.WriteLine(str(output.ToArray()));
         }
     }
